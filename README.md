@@ -1,6 +1,18 @@
 
 # Question and Answer System Based on Google Palm LLM and Langchain for E-learning company  
 
+![Working Example of the Application](./Streamlit_KnowledgeBase.png)
+
+This is the main interface of the application, allowing users to create a knowledge base and ask questions interactively.
+
+![Sample FAQs Used](./Anant_test_FAQs.png)
+
+The application uses structured FAQs like the ones above to build its knowledge base.
+
+![FAQ System in Action](./StreamLit_ExampleOfFAQ.png)
+
+The application fetches relevant answers in real time using LangChain and FAISS.
+
   - Langchain + Google Palm: LLM based Q&A
   - Streamlit: UI
   - Huggingface instructor embeddings: Text embeddings
